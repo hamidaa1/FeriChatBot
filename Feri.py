@@ -75,8 +75,8 @@ async def type_and_send(message):
         responsess = responsee.replace("Aco", f"{KONTOL}")
     else:
         responsess = responsee
-    if "Who is feri?" in responsess:
-        responsess2 = responsess.replace("Who is feri?", "Nani?👀")
+    if "Who is beruang?" in responsess:
+        responsess2 = responsess.replace("Who is beruang?", "Nani?👀")
     else:
         responsess2 = responsess
     await message.reply_text(responsess2)
@@ -101,7 +101,7 @@ async def start(client: Client, message: Message):
                         "Source", url="https://github.com/FeriEXP/FeriChatBot"
                     ),
                     InlineKeyboardButton(
-                        "GROUP", url="https://t.me/anossupport"
+                        "GROUP", url="https://t.me/codplanetmars"
                     )
                 ]
             ]
